@@ -16,7 +16,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className} style={{background: "radial-gradient(circle, rgba(230,230,230,1) 0%, rgba(189,189,189,1) 100%)", backgroundSize: "cover", backgroundPosition: "center", backgroundAttachment:"fixed",}}>{children}</body>
+      
     </html>
   );
 }
+
+
