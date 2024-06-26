@@ -382,23 +382,23 @@ const ChessBoard: React.FC = () => {
             <div className="flex justify-center items-center pt-2">
                 <div className="chessboard">{renderSquares()}</div>
             </div>
-            <div className="flex justify-center lg:pt-44 md:pt-36 sm:pt-20 pt-12">
-                <div onClick={clickRed} id='red-choice' className="transform choice red lg:h-10 lg:w-10 m-0.5 shadow-xl md:h-7 md:w-7 sm:h-4 sm:w-4 w-2 h-2" >
+            <div className="flex justify-center pt-4">
+                <div onClick={clickRed} id='red-choice' className="transform choice red lg:h-10 lg:w-10 m-0.5 shadow-xl md:h-7 md:w-7 w-7 h-7" >
                     
                 </div>
-                <div onClick={clickGre} id = 'gre-choice' className="transform choice gre lg:h-10 lg:w-10 m-0.5 shadow-xl md:h-7 md:w-7 sm:h-4 sm:w-4 w-2 h-2">
+                <div onClick={clickGre} id = 'gre-choice' className="transform choice gre lg:h-10 lg:w-10 m-0.5 shadow-xl md:h-7 md:w-7 w-7 h-7">
 
                 </div>
-                <div onClick={clickYel}id = 'yel-choice' className="transform choice yel lg:h-10 lg:w-10 m-0.5 shadow-xl md:h-7 md:w-7 sm:h-4 sm:w-4 w-2 h-2">
+                <div onClick={clickYel}id = 'yel-choice' className="transform choice yel lg:h-10 lg:w-10 m-0.5 shadow-xl md:h-7 md:w-7 w-7 h-7">
                     
                 </div>
-                <div onClick={clickBlu} id = 'blu-choice' className="transform choice blu lg:h-10 lg:w-10 m-0.5 shadow-xl md:h-7 md:w-7 sm:h-4 sm:w-4 w-2 h-2">
+                <div onClick={clickBlu} id = 'blu-choice' className="transform choice blu lg:h-10 lg:w-10 m-0.5 shadow-xl md:h-7 md:w-7 w-7 h-7">
                     
                 </div>
-                <div onClick={clickPur} id = 'pur-choice'className="transform choice pur lg:h-10 lg:w-10 m-0.5 shadow-xl md:h-7 md:w-7 sm:h-4 sm:w-4 w-2 h-2">
+                <div onClick={clickPur} id = 'pur-choice'className="transform choice pur lg:h-10 lg:w-10 m-0.5 shadow-xl md:h-7 md:w-7 w-7 h-7">
                     
                 </div>
-                <div onClick={clickBla} id = 'bla-choice'className="transform choice bla lg:h-10 lg:w-10 m-0.5 shadow-xl md:h-7 md:w-7 sm:h-4 sm:w-4 w-2 h-2">
+                <div onClick={clickBla} id = 'bla-choice'className="transform choice bla lg:h-10 lg:w-10 m-0.5 shadow-xl md:h-7 md:w-7 w-7 h-7">
                     
                 </div>
             </div>
