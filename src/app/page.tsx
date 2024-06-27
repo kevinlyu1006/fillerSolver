@@ -10,6 +10,7 @@ import { mainListItems } from "@/components/Listitems";
 import ChevronLeftIcon from '@mui/icons-material/ChevronLeft';
 import React from "react";
 import QuestionMarkIcon from '@mui/icons-material/QuestionMark';
+import Popup from "@/components/Popup";
 
 const drawerWidth: number = 400;
 
@@ -109,6 +110,7 @@ export default function Home() {
         <CustomSlider/>
       </div>
     </div> */}
+    <Popup />
     <div className="flex justify-center w-full">
     <Buttons />
 

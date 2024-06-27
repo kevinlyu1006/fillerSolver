@@ -99,10 +99,10 @@ export default function Buttons() {
         
 
           <div className="flex justify-center items-center pt-4">
-              <div id="p1" className={`border border-black mr-16 px-3 py-2 rounded-2xl text-white font-bold`}>1</div>
+              <div id="p1" className={`border border-black mr-10 px-2 py-2 rounded-2xl text-white font-bold`}>1</div>
               <Button className='mr-1' size="medium" variant="contained" onClick={handleRandomize} >Randomize</Button>
               <Button onClick={handleResetStart} className='ml-1 px-8' size="medium" variant="contained">{buttonName}</Button>
-              <div id="p2" className="border border-black ml-16 px-2.5 py-2 rounded-xl text-white font-bold">1</div>
+              <div id="p2" className="border border-black ml-10 px-2 py-2 rounded-xl text-white font-bold">1</div>
           </div>
           
         
