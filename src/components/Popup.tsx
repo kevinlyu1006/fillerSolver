@@ -24,7 +24,7 @@ const Popup: React.FC = () => {
       </button>
       {isVisible && (
         <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50 z-50">
-          <div className="flex bg-white pl-5 pb-5 rounded shadow-lg z-50">
+          <div className="flex bg-white p-5 pt-0 pr-0 rounded shadow-lg w-11/12 max-w-lg mx-auto max-h-full overflow-y-auto">
             
            
             <div>
@@ -53,7 +53,7 @@ const Popup: React.FC = () => {
             </div>
             <button 
               onClick={hidePopup} 
-              className="h-8 px-0 mr-1 py-0 text-white rounded hover:bg-gray-200"
+              className="h-6 px-0 py-0 text-white rounded hover:bg-gray-200"
             >
               <ClearIcon color = "disabled" />
             </button>
