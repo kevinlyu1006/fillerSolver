@@ -47,7 +47,7 @@ const Popup: React.FC = () => {
               <h3 className="font-bold">
                 Computer Analysis:
               </h3>
-              <p>1. The color with the dashed outline is the computer's suggested move.</p>
+              <p>1. The color with the dashed outline is the computer&apos;s suggested move.</p>
               <p>2. To adjust the depth of the analysis, use the slider.</p>
               <p>3. The higher the depth, the more acurate the suggestion but slower the analysis</p>
             </div>
